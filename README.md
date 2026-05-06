@@ -35,14 +35,14 @@ FOUNDRY_MODEL_NAME=<deployed-model-name>
 | `customtool.py` | Defines a reusable `FunctionTool` (`weather_tool`) that returns mock weather data. Imported by other scripts. |
 | `multithread.py` | Runs the same agent across **three concurrent threads**, each with a different question, and polls all runs to completion. |
 | `HumanInLoop.py` | Demonstrates **human-in-the-loop** approval — the agent requests a tool call (refund / cancel subscription) and waits for manual confirmation before executing. |
-| `doctor_appointment.py` | Full **interactive clinic appointment system** with receptionist approval, emergency handling, multi-patient sessions, and an end-of-day report. |
+| `doctor_appointment_agent.py` | Full **interactive clinic appointment system** with receptionist approval, emergency handling, multi-patient sessions, and an end-of-day report. |
 
 ## Doctor Appointment System
 
 The most complete example. Run it with:
 
 ```bash
-python doctor_appointment.py
+python doctor_appointment_agent.py
 ```
 
 ### Features
@@ -74,6 +74,6 @@ Microsoft Foundry/
 ├── customtool.py           # Shared weather FunctionTool
 ├── multithread.py          # Multi-thread concurrent agent runs
 ├── HumanInLoop.py          # Human approval before tool execution
-├── doctor_appointment.py   # Full clinic appointment system
+├── doctor_appointment_agent.py   # Full clinic appointment system
 └── README.md
 ```
