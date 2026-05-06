@@ -1,0 +1,11 @@
+# ── Required for all auth methods ──────────────────────────────
+FOUNDRY_PROJECT_ENDPOINT=Project URL
+FOUNDRY_MODEL_NAME=gpt-5.4
+
+# ── For Service Principal auth (production) ────────────────────
+# AZURE_TENANT_ID=TENANT_ID
+# AZURE_CLIENT_ID=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+# AZURE_CLIENT_SECRET=your-client-secret-value
+
+# ── For direct model/REST calls only (NOT for agent management) ─
+FOUNDRY_API_KEY=Your-API-KEY
